@@ -4,6 +4,7 @@ import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 // import * as ReactMDL from 'react-mdl';
 
 import "./App.css";
+import Main from "./Components/main";
 
 class App extends Component {
   render() {
@@ -31,6 +32,10 @@ class App extends Component {
               <a href="/">Link</a>
             </Navigation>
           </Drawer>
+          <Content>
+            <div className="page-content" />
+            <Main />
+          </Content>
           <Content />
         </Layout>
       </div>
