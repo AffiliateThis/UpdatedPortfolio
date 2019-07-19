@@ -8,14 +8,14 @@ import { Link } from "react-router-dom";
 class App extends Component {
   render() {
     return (
-      <div style={{ height: "300px", position: "relative" }}>
+      <div className="demo-big-content">
         <Layout
-          style={{
-            background:
-              "url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover"
-          }}
+        // style={{
+        //   background: "url(https://res.cloudinary.com/dtd8cnede/image/upload/v1563557007/IMG_20190527_134509_v8flg8.jpg) center / cover"
+        // }}
         >
-          <Header transparent title="Title" style={{ color: "white" }}>
+          <Header className="header-color" title="Title" scroll>
+            {/* // transparent title="Title" style={{ color: "white" }}> */}
             <Navigation>
               <Link to="/resume">Resume</Link>
               <Link to="/aboutme">About Me</Link>
