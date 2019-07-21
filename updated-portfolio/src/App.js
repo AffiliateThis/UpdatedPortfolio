@@ -17,6 +17,7 @@ class App extends Component {
           <Header className="header-color" title="Title" scroll>
             {/* // transparent title="Title" style={{ color: "white" }}> */}
             <Navigation>
+              {/* <Link to="/home">Home</Link> */}
               <Link to="/resume">Resume</Link>
               <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>

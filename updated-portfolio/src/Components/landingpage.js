@@ -6,16 +6,46 @@ class LandingPage extends Component {
     return (
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
-          <Cell col={12} >
-          <img
-            scr="https%3A%2F%2Fcdn0.iconfinder.com%2Fdata%2Ficons%2Fuser-pictures%2F100%2Fmalecostume-512.png&imgrefurl=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F628289%2Favatar_business_costume_male_man_office_work_icon&docid=G_df5AlvKC1kUM&tbnid=MvKIRrrd9GD1CM%3A&vet=10ahUKEwj39PSv38HjAhXGJt8KHf47CRoQMwh-KAAwAA..i&w=512&h=512&bih=850&biw=1707&q=avatar%20male&ved=0ahUKEwj39PSv38HjAhXGJt8KHf47CRoQMwh-KAAwAA&iact=mrc&uact=8 "
-            alt="avatar"
-            className="avatar-img"
-          />
-          <div className="banner-text">
-            <h1>Full Stack Web Developer</h1>
-            <hr/>
-          </div>
+          <Cell col={12}>
+            <img
+              src="https://cdn4.iconfinder.com/data/icons/avatars-21/512/avatar-circle-human-male-3-512.png "
+              alt="avatar"
+              className="avatar-img"
+            />
+            <div className="banner-text">
+              <h1>Full Stack Web Developer</h1>
+              <hr />
+              <p>
+                HTML |CSS | Node.JS | JavaScript | React | Express | MongoDB
+              </p>
+              <div className="social-links">
+                {/* LinkedIn */}
+                <a
+                  href="http://google.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                </a>
+                {/* Github */}
+                <a
+                  href="http://google.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-github-square" aria-hidden="true" />
+                </a>
+                {/* maybe stackoverflow or something like that */}
+
+                {/* <a
+                  href="http://google.com"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-linkedin-square" aria-hidden="true" />
+                </a> */}
+              </div>
+            </div>
           </Cell>
         </Grid>
       </div>
