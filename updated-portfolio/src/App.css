@@ -12,6 +12,10 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.mdl-navigation__link {
+  font-size: 18px;
+}
+
 .landing-grid {
   background: #bdc3c7; /* fallback for old browsers */
   background: -webkit-linear-gradient(
