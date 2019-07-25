@@ -71,7 +71,7 @@ class Projects extends Component {
               color: "#fff",
               height: "176px",
               background:
-                "url(https://res.cloudinary.com/dtd8cnede/image/upload/v1564031881/relay%20estimator/chart_screenshot_ooamkj.png) center/cover"
+                "url(https://res.cloudinary.com/dtd8cnede/image/upload/v1564061377/relay%20estimator/trailtracker5_eyjpze.png) center/cover"
               // "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSISAPF8vrQ6xvb0zExOUS00ZB_KFeIi2UiC5ZkWvWzveIO0wATsQ) center / cover"
             }}
           />
@@ -115,10 +115,53 @@ class Projects extends Component {
       // );
     } else if (this.state.activeTab === 2) {
       return (
-        <div>
-          <h1>This is Express</h1>
-        </div>
+        <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <CardTitle
+            style={{
+              color: "#fff",
+              height: "176px",
+              background:
+                "url(https://res.cloudinary.com/dtd8cnede/image/upload/v1564061377/relay%20estimator/trailtracker5_eyjpze.png) center/cover"
+              // "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSISAPF8vrQ6xvb0zExOUS00ZB_KFeIi2UiC5ZkWvWzveIO0wATsQ) center / cover"
+            }}
+          />
+          <CardText>
+            Trail Tracker is a web application designed for the hiking
+            enthusiast who wants to commemorate their hiking experiences. The
+            user only needs to sign up by creating a username and password to
+            begin. Once the user has signed up, they are able to create as many
+            blog posts as they want and are only limited by the number of hikes
+            that they complete!
+          </CardText>
+          <CardActions border>
+            <Button
+              colored
+              href="https://github.com/millhousenm/Project2"
+              target="_blank"
+            >
+              Github
+            </Button>
+            <Button
+              colored
+              href="https://floating-refuge-62057.herokuapp.com"
+              target="_blank"
+            >
+              URL
+            </Button>
+            <Button
+              colored
+              href="https://youtu.be/3E7jdG1uMA8 "
+              target="_blank"
+            >
+              LiveDemo
+            </Button>
+          </CardActions>
+          <CardMenu style={{ color: "#fff" }}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
       );
+      
     } else if (this.state.activeTab === 3) {
       return (
         <div>
