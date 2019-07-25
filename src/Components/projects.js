@@ -121,17 +121,16 @@ class Projects extends Component {
               color: "#fff",
               height: "176px",
               background:
-                "url(https://res.cloudinary.com/dtd8cnede/image/upload/v1564061377/relay%20estimator/trailtracker5_eyjpze.png) center/cover"
+                "url(https://res.cloudinary.com/dtd8cnede/image/upload/v1564067843/relay%20estimator/BOAT_Systems_Demo_pic_mozhto.png) center/cover"
               // "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSISAPF8vrQ6xvb0zExOUS00ZB_KFeIi2UiC5ZkWvWzveIO0wATsQ) center / cover"
             }}
           />
           <CardText>
-            Trail Tracker is a web application designed for the hiking
-            enthusiast who wants to commemorate their hiking experiences. The
-            user only needs to sign up by creating a username and password to
-            begin. Once the user has signed up, they are able to create as many
-            blog posts as they want and are only limited by the number of hikes
-            that they complete!
+            In this project, the team created an app that acts as a movable
+            bridge operation training simulator. Many times there are costly
+            repairs that must be administered for improperly operating a movable
+            bridge. This simulator provides a model of the steps for bridge
+            movement.
           </CardText>
           <CardActions border>
             <Button
@@ -161,7 +160,6 @@ class Projects extends Component {
           </CardMenu>
         </Card>
       );
-      
     } else if (this.state.activeTab === 3) {
       return (
         <div>
