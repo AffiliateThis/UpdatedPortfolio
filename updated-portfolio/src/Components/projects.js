@@ -76,28 +76,33 @@ class Projects extends Component {
             }}
           />
           <CardText>
-          Trail Tracker is a web application designed for the hiking enthusiast who wants to 
-          commemorate their hiking experiences. The user only needs to sign up by creating a 
-          username and password to begin. Once the user has signed up, they are able to create 
-          as many blog posts as they want and are only limited by the number of hikes that they complete! 
-
+            Trail Tracker is a web application designed for the hiking
+            enthusiast who wants to commemorate their hiking experiences. The
+            user only needs to sign up by creating a username and password to
+            begin. Once the user has signed up, they are able to create as many
+            blog posts as they want and are only limited by the number of hikes
+            that they complete!
           </CardText>
           <CardActions border>
             <Button
               colored
-              href="https://github.com/jmschindele/group_project_3"
+              href="https://github.com/millhousenm/Project2"
               target="_blank"
             >
               Github
             </Button>
             <Button
               colored
-              href="https://salty-reef-43633.herokuapp.com"
+              href="https://floating-refuge-62057.herokuapp.com"
               target="_blank"
             >
               URL
             </Button>
-            <Button colored href="http://bit.ly/2Ydgk2n " target="_blank">
+            <Button
+              colored
+              href="https://youtu.be/3E7jdG1uMA8 "
+              target="_blank"
+            >
               LiveDemo
             </Button>
           </CardActions>
@@ -131,7 +136,7 @@ class Projects extends Component {
           ripple
         >
           <Tab>React</Tab>
-          <Tab>Mongodb</Tab>
+          {/* <Tab>Mongodb</Tab> */}
           <Tab>Express</Tab>
           <Tab>Javascript</Tab>
         </Tabs>
